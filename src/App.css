@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.App {
+  font-family: 'Open Sans', sans-serif;
+}
+.background {
+  background: #357bd6; /* Old browsers */
+background: -moz-linear-gradient(top, #357bd6 1%, #183868 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #357bd6 1%,#183868 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #357bd6 1%,#183868 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#357bd6', endColorstr='#183868',GradientType=0 ); /* IE6-9 */
+  height: 100%;
+  width: 100%;
+}
+.cloud {
+  position: absolute;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 99999;
+}
+.forecast {
+  position: absolute;
+}

@@ -1,0 +1,66 @@
+.window {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 250px);
+  opacity: .8;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #183968;
+}
+.window-upper {
+  background-color: #4A90E2;
+  padding: 20px 30px 20px 30px;
+  height: 60%;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+.form {
+  font-size: 20px;
+}
+
+input, textarea {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: calc(100% - 60px);
+  background-color: #4A90E2;
+  color: white;
+  border: 0px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 2px solid black;
+}
+a {
+  border-bottom: 2px solid black;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+.upper-left {
+  width: 60%;
+  display: inline-block;
+}
+.today-temp {
+  font-size: 150px;
+}
+.upper-right {
+  width: 40%;
+    display: inline-block;
+}
+.today-scale {
+  font-size: 36px;
+}
+.today-weather {
+  font-size: 24px;
+}
+.today-humidity {
+  font-size: 18px;
+}
+.window-lower {
+  background-color: white;
+  padding: 20px 30px 20px 30px;
+  height: 40%;
+  border-radius: 0px 0px 10px 10px;
+  color: black;
+}
